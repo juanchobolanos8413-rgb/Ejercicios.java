@@ -4,15 +4,15 @@ let descuento = 0;
 
 if (compraTotal > 100000) {
     if (esCliente) {
-        descuento = 0.20; // 20%
+        descuento = 0.20;
     } else {
-        descuento = 0.10; // 10%
+        descuento = 0.10;
     }
 } else {
     if (esCliente) {
-        descuento = 0.05; // 5%
+        descuento = 0.05;
     } else {
-        descuento = 0; // Sin descuento
+        descuento = 0
     }
 }
 
